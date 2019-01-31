@@ -2,6 +2,8 @@
   {{result}} - {{status}}
 </p>
 
-<button (click)="onHttpPromise()">button</button>
+<input #file type="file" name="file" />
+<button (click)="onHttpUploadFile()">upload</button>
+<button (click)="onHttpPromise()">promise</button>
 
-<button (click)="onHttpObservable()">button</button>
+<button (click)="onHttpObservable()">observable</button>
