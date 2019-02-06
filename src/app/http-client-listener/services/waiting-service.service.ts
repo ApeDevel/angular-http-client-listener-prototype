@@ -19,7 +19,7 @@ export class WaitingServiceService {
       --this.waitCounter;
     }
     if (this.waitCounter === 0) {
-      document.getElementById('waitPlaceholder').innerHTML = 'Done';
+      document.getElementById('waitPlaceholder').innerHTML = '';
     }
   }
 }
