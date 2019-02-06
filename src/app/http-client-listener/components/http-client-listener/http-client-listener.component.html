@@ -1,9 +1,5 @@
 <p>
-  {{result}} - {{status}}
+  <span>Result:</span> <span>{{result|json}}</span>
 </p>
 
-<input #file type="file" name="file" />
-<button (click)="onHttpUploadFile()">upload</button>
 <button (click)="onHttpPromise()">promise</button>
-
-<button (click)="onHttpObservable()">observable</button>
